@@ -23,7 +23,5 @@ function createElements(data){
     co_det.innerHTML ="Country:"+data.country_name;
     const ci_det = document.querySelector(".city");
     ci_det.innerHTML ="City:"+data.city;
-    const zc_det = document.querySelector(".zipcode");
-    zc_det.innerHTML ="Zip-Code:"+data.zip_code;
 }
 
