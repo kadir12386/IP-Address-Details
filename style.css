@@ -31,7 +31,8 @@
         border:none;
         border-radius: 10px;
         font-size: 1rem;
-        background: #6dd5ed;
+        background: #224be9;
+        color: #fff;
     }
     
 }
@@ -65,5 +66,6 @@
     border:none;
     border-radius: 10px;
     font-size: 1rem;
-    background: #6dd5ed;
+    background: #224be9;
+    color: #fff;
 }
