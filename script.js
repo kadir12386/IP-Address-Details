@@ -6,25 +6,9 @@ function getdata() {
     fetch(url)
     .then(response => response.json())
     .then(data => {
-  
-//       initMap(data)
         createElements(data);
     });
 }
-
-// Creating Map for Ip Location
-// function initMap(data){
-//     let lati = data.latitude;
-//     let long = data.longitude;
-//     var map = new google.maps.Map(document.getElementById("map"), {
-//     center: { lat: lati, lng: long },
-//     zoom: 8,
-//  });
-//     var marker = new google.maps.Marker({
-//         position: {lat:lati, lng:long},
-//         map:map
-//     });
-// }
 
 // Creating and updating Html Elements
 function createElements(data){
